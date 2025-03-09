@@ -30,7 +30,7 @@ FROM
 -- Creating the subquery and selecting columns to retrieve information on students info
 
 SELECT
-	i.student_id,
+    i.student_id,
     i.date_registered,
     MIN(e.date_watched) AS first_date_watched,
     MIN(p.date_purchased) AS first_date_purchased,
